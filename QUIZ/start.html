@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz</title>
+        <!-- css include  -->
+        <link rel="stylesheet" href="dist/css/style.css">
+	</head>
+	<body>
+        
+<div class="wrapper">
+
+<div class=" wellcome_text">
+    <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your name" name="name" >
+ <div class="welcome_form">
+    <p>Gender:</p>
+  
+    <input type="radio" id="html" name="fav_language" value="HTML"><br>
+    <label for="html">HTML</label>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript"><br>
+
+    <label for="javascript">JavaScript</label>
+ </div>
+   
+        
+      
+            <button type="submit">Start Quiz</button>
+    </form>
+</div>
+</div>
+        <!-- js include -->
+        <script src="dist/js/quiz.js"></script>
+    </body>
+</html>
