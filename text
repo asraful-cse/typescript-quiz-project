@@ -1,0 +1,61 @@
+let questions = [
+	{
+		id: 1,
+		question: "In ReactJS, props can be used to pass",
+		answer: "Both of above",
+		options: [
+			"Properties to the component",
+			"Event handler to component",
+			"Both of above",
+			"None of above",
+		],
+	},
+	{
+		id: 2,
+		question: "componentDidMount lifecycle method is called when____",
+		answer: "Component is created for the first time",
+		options: [
+			"Component is created for the first time",
+			"Component is updated",
+			"Both of above",
+			"None of above",
+		],
+	},
+	{
+		id: 3,
+		question: "For controlled components in react",
+		answer: "Source of truth is component state",
+		options: [
+			"Source of truth is DOM",
+			"Source of truth is component state",
+			"Source of truth can be anything",
+			"None of above",
+		],
+	},
+	{
+		id: 4,
+		question: "What are two ways data gets handled in react?",
+		answer: "state & props",
+		options: [
+			"state & props",
+			"services & components",
+			"state & services",
+			"state & component",
+		],
+	},
+	{
+		id: 5,
+		question: "JSX is acronym for ",
+		answer: "JavaScript eXtension",
+		options: [
+			"Java Server eXtension",
+			"JavaScript eXtension",
+			"Java Script Extender",
+			"None of above",
+		],
+	},
+];
+A;
+B;
+C;
+D;

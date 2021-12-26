@@ -4,14 +4,34 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 }
+.welcome_text h1 {
+	color: white;
+	text-align: center;
+	justify-content: center;
+}
+.header {
+	color: white;
+	text-align: center;
+	justify-content: center;
+}
 
+.radio_style {
+	color: white;
+	text-align: center;
+	justify-content: center;
+}
+.language_style {
+	color: white;
+	text-align: center;
+	justify-content: center;
+}
 .wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
-	background-color: blueviolet;
+	background-color: rgb(8, 2, 14);
 }
 
 .welcome_text {
@@ -23,7 +43,7 @@ body {
 .welcome_form button {
 	display: block;
 	width: 100%;
-	color: rgb(216, 27, 216);
+	color: rgb(27, 216, 197);
 }
 .welcome_form input {
 	margin-bottom: 15px;
@@ -52,4 +72,86 @@ body {
 .welcome_form input:focus,
 .welcome_form button:focus {
 	outline: none;
+}
+
+.quiz {
+	border-radius: 3px;
+	display: grid;
+	grid-template-rows: 60px auto;
+	width: 800px;
+	height: 500px;
+	background-color: rgb(255, 255, 255);
+}
+.quiz_header {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+}
+.quiz_body {
+	background-color: rgb(230, 215, 215);
+	padding: 30px;
+}
+.quiz_user {
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+}
+.quiz_timer {
+	display: flex;
+	align-items: center;
+	background-color: rgb(6, 31, 63);
+	color: white;
+	padding: 0 30px;
+}
+.option_group {
+	list-style: none;
+	margin: 30px 0;
+}
+.option {
+	background-color: white;
+	width: 300px;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	border-radius: 100px;
+	border: 2px solid transparent;
+}
+.option:hover {
+	cursor: pointer;
+	border: 2px solid rgb(6, 31, 63);
+	color: rgb(6, 31, 63);
+}
+
+.btn_next {
+	background-color: rgb(6, 31, 63);
+	color: white;
+	padding: 15px 35px;
+	border: none;
+	border-radius: 27px;
+	transition: 0.4s all;
+}
+.btn_next:hover {
+	cursor: pointer;
+	background-color: white;
+	color: rgb(6, 31, 63);
+	box-shadow: 0px 0px 10px 1px rgb(6, 31, 63);
+}
+.active {
+	background-color: rgb(6, 31, 63);
+	color: white !important;
+}
+
+.chart {
+	color: gold;
+	font-size: 150px;
+}
+.user_name,
+.user_points,
+.user_time {
+	text-align: center;
+	color: rgb(230, 215, 215);
+	margin-top: 15px;
 }

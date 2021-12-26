@@ -10,26 +10,29 @@
 	</head>
 	<body>
         
-<div class="wrapper">
+<div class="wrapper">   
+<div class="welcome_text">
+       
+    <h1>MCQ Assessment Test</h1>
+    <h2 class="header">Gender</h2>
+   <div class="radio_style">
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Male</label>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Female</label>
+   </div>
+   <div class="language_style">
+    <h2 class="header">Language</h2>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">JavaScript</label><br>
+   </div>
 
-<div class=" wellcome_text">
     <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
-        <input type="text" placeholder="Your name" name="name" >
- <div class="welcome_form">
-    <p>Gender:</p>
-  
-    <input type="radio" id="html" name="fav_language" value="HTML"><br>
-    <label for="html">HTML</label>
-    <input type="radio" id="css" name="fav_language" value="CSS">
-    <label for="css">CSS</label><br>
-    <input type="radio" id="javascript" name="fav_language" value="JavaScript"><br>
-
-    <label for="javascript">JavaScript</label>
- </div>
+    <input type="text" placeholder="Your name" name="name" > 
+ 
    
-        
-      
-            <button type="submit">Start Quiz</button>
+  
+    <button type="submit">Start Quiz</button>
     </form>
 </div>
 </div>
